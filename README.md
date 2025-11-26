@@ -1,8 +1,5 @@
 # UK-house-price-prediction-by-using-time-series-analysis-Machine-Learning-and-Deep-Learning-Models
 This project focuses on forecasting UK house prices using multiple statistical and machine-learning models. The goal is to analyse long-term price behaviour, identify underlying patterns, and evaluate which model offers the highest predictive accuracy.
-# UK House Price Prediction (1995–2024)
-Forecasting UK housing prices using ARIMA, SARIMA, LSTM, and Linear Regression.  
-A complete end-to-end time-series project comparing statistical, machine learning, and deep learning models.
 
 ---
 
