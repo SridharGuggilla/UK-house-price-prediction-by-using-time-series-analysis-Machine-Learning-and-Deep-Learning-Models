@@ -1,0 +1,16 @@
+UK House Price Index (HPI) Dataset
+----------------------------------
+
+This project uses the official UK House Price Index (HPI) dataset.
+
+Source:
+UK Government – HM Land Registry
+https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-january-2024
+
+Direct CSV Link (Latest Full File):
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/1279754/UK-HPI-full-file-2024-01.csv
+
+Notes:
+- File is too large to upload to GitHub (63+ MB)
+- Download manually using the link above
+- Place the CSV file in the project’s /data/ folder before running the notebook
