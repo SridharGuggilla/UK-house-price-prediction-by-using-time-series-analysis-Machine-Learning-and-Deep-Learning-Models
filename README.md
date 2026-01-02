@@ -38,14 +38,14 @@ Each model is trained and evaluated on the same train–test split to ensure fai
 
 3. Model Training  
    - ARIMA & SARIMA using statsmodels  
-   - LSTM using TensorFlow/Keras with deterministic configuration  
+   - LSTM using TensorFlow/Keras with deterministic configuration
+   - Linear Regression
 
 4. Evaluation  
    - RMSE  
    - MAE  
    - MSE  
    - R²  
-   - Test variance comparison  
 
 5. Forecasting  
    - Recursive multi-step forecasting  
