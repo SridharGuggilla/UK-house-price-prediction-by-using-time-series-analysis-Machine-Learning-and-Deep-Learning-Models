@@ -8,7 +8,7 @@ This project focuses on forecasting UK house prices using classical time-series 
 
 - Dataset: UK House Price Index (UK HPI)
 - Frequency: Monthly
-- Period: 1990 – 2024
+- Period: 1978 – 2024
 - Target Variable: Average House Price (£)
 - Scope: United Kingdom (national-level analysis)
 
