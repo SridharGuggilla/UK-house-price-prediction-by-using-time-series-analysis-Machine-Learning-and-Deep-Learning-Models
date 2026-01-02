@@ -1,4 +1,4 @@
-# UK House Price Forecasting using Time Series & Machine Learning
+# UK House Price Forecasting using Time Series, Machine Learning and Deep Learning Models
 
 This project focuses on forecasting UK house prices using classical time-series models and machine learning techniques. The aim is to compare model performance and understand why simpler models can outperform complex deep learning approaches on highly autocorrelated economic data.
 
