@@ -32,27 +32,21 @@ Source: UK House Price Index (HPI)
 ### **1️⃣ Linear Regression (Best Performer)**
 - Uses engineered lag features (lag-1 to lag-12)
 - Most stable and accurate model  
-- **RMSE:** 3295  
-- **MAE:** 2232  
-- **MAPE:** 0.85%  
+ 
 
 ---
 
 ### **2️⃣ LSTM**
 - Learns long-term and non-linear patterns  
 - Smooth convergence and no overfitting  
-- **RMSE:** 8691  
-- **MSE:** 7,555,055  
-- **R²:** 0.86  
+ 
 
 ---
 
 ### **3️⃣ ARIMA**
 - Captures linear & short-term dependencies  
 - Tuned via ACF/PACF  
-- **RMSE:** 42043  
-- **MAE:** 34721  
-- **R²:** –2.14  
+ 
 
 ---
 
@@ -63,15 +57,6 @@ Source: UK House Price Index (HPI)
 
 ---
 
-##  Model Comparison
-
-| Model | RMSE | MAE | MAPE | R² |
-|-------|-------|------|-------|------|
-| **Linear Regression** | **3295** | **2232** | **0.85%** | — |
-| **LSTM** | 8691 | — | — | 0.86 |
-| **ARIMA** | 42043 | 34721 | — | –2.14 |
-| **SARIMA** | Moderate | — | — | — |
-
 **Winner: Linear Regression**  
 Feature engineering > Complex models.
 
@@ -81,17 +66,9 @@ Feature engineering > Complex models.
 Forecast horizons explored:
 - **12 months**
 - **24 months**
-- **48 months**
+
 
 Forecasts visualized using Plotly (interactive graphs).
-
----
-
-##  Future Improvements
-- Regional forecasting (London, Wales, Scotland, NI)
-- Adding macroeconomic factors  
-- Hybrid models (ARIMA + LSTM)  
-- Deploying as a Streamlit dashboard  
 
 ---
 
