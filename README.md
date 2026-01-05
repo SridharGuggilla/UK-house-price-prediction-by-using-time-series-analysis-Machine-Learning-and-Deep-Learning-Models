@@ -68,7 +68,7 @@ Each model is trained and evaluated on the same train–test split to ensure fai
 - Pandas, NumPy
 - scikit-learn
 - statsmodels
-- TensorFlow / Keras
+- TensorFlow
 - Matplotlib & Plotly
 
 ---
