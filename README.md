@@ -3,7 +3,7 @@ This project focuses on forecasting UK house prices using multiple statistical a
 
 ---
 
-## 📌 Project Summary
+## Project Summary
 This project predicts future UK house prices using monthly data from the UK House Price Index (1995–2024).  
 Several models were built and evaluated to identify the most accurate forecasting approach.
 
@@ -18,7 +18,7 @@ Despite being the simplest model, **Linear Regression delivered the highest accu
 
 ---
 
-## 📂 Dataset
+##  Dataset
 Source: UK House Price Index (HPI)  
 - Monthly data from 1995 to 2024  
 - Nationwide average house prices  
@@ -27,7 +27,7 @@ Source: UK House Price Index (HPI)
 
 ---
 
-## 🔧 Models & Key Results
+##  Models & Key Results
 
 ### **1️⃣ Linear Regression (Best Performer)**
 - Uses engineered lag features (lag-1 to lag-12)
@@ -63,7 +63,7 @@ Source: UK House Price Index (HPI)
 
 ---
 
-## 📊 Model Comparison
+##  Model Comparison
 
 | Model | RMSE | MAE | MAPE | R² |
 |-------|-------|------|-------|------|
@@ -77,7 +77,7 @@ Feature engineering > Complex models.
 
 ---
 
-## 📈 Forecasting
+##  Forecasting
 Forecast horizons explored:
 - **12 months**
 - **24 months**
@@ -87,7 +87,7 @@ Forecasts visualized using Plotly (interactive graphs).
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Regional forecasting (London, Wales, Scotland, NI)
 - Adding macroeconomic factors  
 - Hybrid models (ARIMA + LSTM)  
